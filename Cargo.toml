@@ -1,0 +1,16 @@
+[package]
+name = "dialogflow_webhook"
+version = "0.0.1"
+edition = "2021"
+
+authors = ["Yalsin Li <yalsinli@gmail.com>"]
+description = "A simple Google Dialogflow webhook for Rust.)"
+repository = "https://github.com/ys-li/dialogflow_webhook"
+documentation = "https://docs.rs/"
+license = "MIT"
+keywords = ["dialogflow", "google", "telegram", "webhook"]
+
+[dependencies]
+
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
